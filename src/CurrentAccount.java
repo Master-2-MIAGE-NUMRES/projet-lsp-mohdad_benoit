@@ -1,4 +1,4 @@
-// Compte courant qui permet les retraits et les dépôts
+import interfaces.Withdrawable;
 public class CurrentAccount extends BankAccount implements Withdrawable {
     public CurrentAccount(double initialBalance) {
         super(initialBalance);

@@ -1,3 +1,5 @@
+import interfaces.Depositable;
+
 public class Main {
     public static void main(String[] args) {
         CurrentAccount currentAccount = new CurrentAccount(1000);

@@ -1,3 +1,5 @@
+import interfaces.Depositable;
+
 public abstract class BankAccount implements Depositable {
     protected double balance;
 
